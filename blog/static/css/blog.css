@@ -1,5 +1,14 @@
+body{
+    background-color: #f3f1f1;
+}
+.col{
+    padding: 10;
+  
+}
+
+
 .page-header {
-    background-color: #C25100;
+    background-color: #9AD0C2;
     margin-top: 0;
     margin-bottom: 40px;
     padding: 20px 20px 20px 40px;
@@ -9,7 +18,7 @@
 .page-header h1 a,
 .page-header h1 a:visited,
 .page-header h1 a:active {
-    color: #ffffff;
+    color: #265073;
     font-size: 36pt;
     text-decoration: none;
 }
@@ -19,6 +28,7 @@ h2,
 h3,
 h4 {
     font-family: 'Lobster', cursive;
+    color: #265073;
 }
 
 .date {
@@ -32,6 +42,7 @@ h4 {
 .post-form textarea,
 .post-form input {
     width: 100%;
+    
 }
 
 .top-menu,
@@ -45,11 +56,14 @@ h4 {
 
 .post {
     margin-bottom: 70px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .post h2 a,
 .post h2 a:visited {
-    color: #000000;
+    color: #265073;
 }
 
 .post > .date,
@@ -59,12 +73,12 @@ h4 {
 
 .btn-secondary,
 .btn-secondary:visited {
-    color: #C25100;
+    color: #9AD0C2;
     background: none;
-    border-color: #C25100;
+    border-color: #9AD0C2;
 }
 
 .btn-secondary:hover {
     color: #FFFFFF;
-    background-color: #C25100;
+    background-color: #9AD0C2;
 }
